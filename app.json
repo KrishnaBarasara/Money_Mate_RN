@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MoneyMate",
+    "slug": "moneymate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moneymate.app",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "We need to use Face ID to securely authenticate you and protect your financial data."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.moneymate.app"
+    },
+    "plugins": ["expo-asset"],
+    "extra": {
+      "eas": {
+        "projectId": "890ab293-612d-47c2-bea6-28b246c65053"
+      }
+    }
+  }
+}
